@@ -148,7 +148,8 @@ void PrintHeadline(void)
     printf("\x1B[%d;%dH", 0, cols - strlen(buf) - 1);
     printf(buf);
 
-    printf("\nOriginal code by bushing (RIP). Maintained by DarkMatterCore.\nAdditional code by InvoxiPlayGames.\n\n");
+    printf("\nOriginal code by bushing (RIP). Maintained by DarkMatterCore.\nAdditional code by InvoxiPlayGames.\n");
+    printf("Common Key Only mod by flagrama.\n\n");
 }
 
 void DisableMemoryProtection(void)

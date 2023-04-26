@@ -8,9 +8,8 @@
 #include <sys/stat.h>
 #include <ogc/machine/processor.h>
 
-#define VERSION                     "1.3.3"
+#define VERSION                     "1.3.3 Common Key Only"
 
-//#define IsWiiU()                  (((*(vu32*)0xCD8005A0) >> 16) == 0xCAFE)
 #define ResetScreen()               printf("\x1b[2J")
 
 #define TITLE_UPPER(x)              ((u32)((x) >> 32))
